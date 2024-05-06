@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Favorite Survey: Anime Edition!</h1>
+    <p id="description">Thank you for participating in our survey</p>
+    <form id="survey-form">
+      <div>
+        <label id="name-label">Enter Name: <input  id="name" type="text" required placeholder="Juan Dela Cruz"/></label>
+        </div>
+
+     <div><label id="email-label"> Enter Email: <input id="email" type="email" required placeholder="juan.delacruz@gmail.com"/></label></div>
+
+     <div><label id="number-label">Age: <input id="number" type="number" required min="8" max="120" placeholder="age"/></label></div>
+<div>
+  <label for="dropdown">What is your Favorite anime?
+     <select id="dropdown">
+      <option value="">(select one)</option>
+      <option value="1">One Piece</option>
+      <option value="2">Bleach</option>
+      <option value="2">Dragon Ball</option>
+      <option value="2">Sailor Moon</option>
+      <option value="2">Inuyasha</option>
+    </select>
+</div>
+<div>
+  <label>Do you watch anime regularly?</label>
+    <label>
+      <input type="radio" name="watch-time" value="watch-time"/> Yes 
+    </label>
+  <label>
+    <input type="radio" name="watch-time" value="watch-time"> No
+  </label>
+</div>
+<div>
+  <label>What genre do you prefer?</label><br>
+  <label>
+    <input type="checkbox" value="genre" name="genre"> Comedy
+  </label><br>
+   <label>
+    <input type="checkbox" value="genre" name="genre"> Action
+  </label><br>
+   <label>
+    <input type="checkbox" value="genre" name="genre"> Josie 
+  </label><br>
+   <label>
+    <input type="checkbox" value="genre" name="genre"> Shonen
+  </label><br>
+   <label>
+    <input type="checkbox" value="genre" name="genre"> Shoje
+  </label><br>
+   <label>
+    <input type="checkbox" value="genre" name="genre"> Other genre
+  </label>
+</div>
+<div>
+  <label for="thought">What are your thoughs about anime shows?</label>
+  <label>
+    <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Anime for me..."></textarea>
+  </label>
+</div>
+<div>
+  <label>
+    <input id="submit" type="submit">
+  </label>
+</div>
+    </form>
+  </body>
+</html>
